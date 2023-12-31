@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+
+
+body{
+    margin: 0px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 330px;
+    height: 480px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 7%);
+    font-family: "Figtree", sans-serif;
+    box-shadow: 7px 7px;
+}
+
+.illustrationImg img{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 75px;
+    margin-left: 25px;
+}
+
+.article{
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.rubrique{
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.date{
+    display: flex;
+    font-size: smaller;
+    font-weight: bolder;
+    
+}
+
+.tittle{
+    margin-top: -15px;
+    font-size: 14px;
+        
+}
+
+.description{
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    font-style: normal;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content :flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+.avatar img{
+    width: 30px;
+    height: 30px;
+    display: flex;   
+}
+
+.name{
+    margin-left: 10px;
+}
+
+
+
+
+@media (max-width: 1440px){
+
+    body{
+        width: 100%;
+        padding: -100px;
+        height: 100%;
+
+    }
+
+    main{
+        height: 460px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .tittle{
+        margin-top: -15px;
+        font-size: 14px;
+        cursor: pointer;    
+    }
+
+    .tittle:hover{
+        color: hsl(47, 88%, 63%);
+    }
+
+} 
